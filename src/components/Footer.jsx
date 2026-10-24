@@ -103,7 +103,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="mt-3">
-              A transparent, donor-first charity connecting givers directly to verified causes worldwide since 2013. Every gift is tracked from wallet to doorstep.
+              TIFACT Academy — Tech Innovative Foundation of Acquiring Critical Thinking — empowers learners with industry-relevant skills through expert-led courses, hands-on projects, and dedicated mentorship. Learn today. Lead tomorrow.
             </p>
             <div className="footer-social mt-3">
               <a href="#facebook" aria-label="Facebook"><i className="bi bi-facebook"></i></a>
@@ -113,7 +113,7 @@ export default function Footer() {
               <a href="#youtube" aria-label="YouTube"><i className="bi bi-youtube"></i></a>
             </div>
             <div className="footer-badges">
-              <span className="footer-badge"><i className="bi bi-patch-check-fill"></i> Registered 501(c)(3)</span>
+              <span className="footer-badge"><i className="bi bi-mortarboard-fill"></i> Certified Mentors</span>
               <span className="footer-badge"><i className="bi bi-shield-lock-fill"></i> SSL Secured</span>
             </div>
           </div>
@@ -268,7 +268,7 @@ export default function Footer() {
                 {CONTACT_INFO.mobile.display}
               </a>
             </div>
-            <h6 className="mt-4">Subscribe toUpdates</h6>
+            <h6 className="mt-4">Subscribe to Updates</h6>
             <form onSubmit={handleSubscribe} className="newsletter-input">
               <input
                 type="email"
