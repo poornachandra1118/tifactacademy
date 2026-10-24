@@ -1351,6 +1351,10 @@ img {
   body {
     padding-bottom: 74px;
   }
+  /* lift scroll-to-top button above the fixed bottom bar */
+  #scrollTop {
+    bottom: 90px;
+  }
 }
 .mobile-donate-bar .btn-hw-primary {
   width: 100%;

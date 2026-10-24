@@ -145,7 +145,7 @@ export default function Navbar({ onOpenMentorModal }) {
                 </Link>
               </li>
             </ul>
-            <div className="d-flex flex-column flex-lg-row align-items-stretch align-items-lg-center gap-2 mt-3 mt-lg-0">
+            <div className="d-none d-lg-flex flex-column flex-lg-row align-items-stretch align-items-lg-center gap-2 mt-3 mt-lg-0">
               <button
                 type="button"
                 className="btn-mentor-apply"
